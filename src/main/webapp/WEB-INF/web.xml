@@ -5,11 +5,11 @@
          version="5.0">
 
     <servlet>
-        <servlet-name>helloServlet</servlet-name>
+        <servlet-name>HelloServlet</servlet-name>
         <servlet-class>io.aston.astoncicd.HelloServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>helloServlet</servlet-name>
+        <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 </web-app>
