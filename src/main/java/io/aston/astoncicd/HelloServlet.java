@@ -8,7 +8,7 @@ import javax.servlet.annotation.*;
 @WebServlet(name = "helloServlet")
 public class HelloServlet extends HttpServlet {
 
-    private String message = "Hello world!";
+    private String message = "Hello Aston!";
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
